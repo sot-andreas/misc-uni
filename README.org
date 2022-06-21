@@ -1,0 +1,7 @@
+* misc-uni
+Programs written for my university courses
+
+** Contents
+
+*** Bridge and torch problem
+A Python program to solve the [[https://en.wikipedia.org/wiki/Bridge_and_torch_problem][Bridge and torch problem]]. Written as an assignment for an  AI course. It compares the suitability and performance of the following algorithms: [[https://en.wikipedia.org/wiki/Breadth-first_search][Breadth-first search]], [[https://en.wikipedia.org/wiki/Best-first_search][Best-first search]] (using a heurestic), [[https://en.wikipedia.org/wiki/A*_search_algorithm][A* search]] and [[https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search][Iterative deepening search]].
