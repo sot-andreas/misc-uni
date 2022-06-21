@@ -1,0 +1,34 @@
+* MIPS Assembly exercises
+Written as part of a Computer Architecture course. This contains six programs written
+in MIPS assembly and run using QtSpim.
+
+** Exercises
+The exercises are fully described in the file ~ComputerArchitectureLabExercises.pdf~
+(the file is written in Greek). Below is a short summury of the exercises:
+
+**** Exercise 1
+1. Print your name and your university ID code.
+2. Read two numbers, subtract them and print the result.
+
+**** Exercise 2
+Print the Fibonacci sequence. Ask the user to insert how many numbers should be printed.
+
+**** Exercise 3
+Read two integers from stdin and print their greatest common divisor (GCD).
+
+**** Exercise 4
+Calculate the 20 first numbers of an arithmetic sequence, print them in reversed order
+and then print their sum. The first number and the step must be inserted by the user at
+runtime.
+
+**** Exercise 5
+Read 10 integers from stdin, sort them using bubble sort and print the result.
+
+**** Exercise 6
+Calculate the moving average of 10 integers using a sampling width k < 10. The integers
+and the sampling width are inserted by the user at runtime. The result is printed to
+stdout.
+
+** Notes
+The license used does NOT apply to the files ~ComputerArchitectureLabExercises.pdf~ and ~HP_AppA.pdf~.
+The rights to them belong to their authors and/or publishers.
