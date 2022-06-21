@@ -1,0 +1,58 @@
+* Bridge and Torch Problem
+#+BEGIN_QUOTE
+Four people come to a river in the night. There is a narrow bridge, but it can
+only hold two people at a time. They have one torch and, because it's night, the
+torch has to be used when crossing the bridge. Person A can cross the bridge in
+1 minute, B in 2 minutes, C in 5 minutes, and D in 8 minutes. When two people
+cross the bridge together, they must move at the slower person's pace. The question
+is, can they all get across the bridge if the torch lasts only 15 minutes?
+-- [[https://en.wikipedia.org/wiki/Bridge_and_torch_problem]]
+#+END_QUOTE
+
+/NOTE: The parameters used for the assignment were different./
+
+Written in Python 3.8 as an assignment for an AI course. It compares the suitability
+and performance of the following algorithms: Breadth-first search, Best-first search
+(using a heurestic), A* search and Iterative deepening search.
+
+** Language
+The program's output and the report pdf are in Greek. If a translation is needed
+please open an Issue.
+
+** Documentation
+~report.pdf~ is the report submitted with the code and contains documentation of the
+program, its structure and the heurestics used.
+
+** Screenshots
+After running the program ~python3 main.py~ the user is asked to insert the problem
+data: number of people, the time each person needs to cross the bridge.
+
+#+html: <p align="center"><img src="https://i.imgur.com/TWG1Trr.png" /></p>
+
+After a result is calculated it is displayed along with information about the
+algorithm's performace.
+
+In the image below, we see the output of the A* search algorithm.
+
+#+html: <p align="center"><img src="https://i.imgur.com/96n0VP7.png" /></p>
+
+The above image in English (P1 stands for Person 1):
+#+BEGIN_SRC
+A* search algorithm:
+P1 and P2 cross the bridge in 2 minutes.
+P1 returns in 1 minute.
+P3 and P4 cross the bridge in 10 minutes.
+P2 returns in 2 minutes.
+P1 and P2 cross the bridge in 2 minutes.
+
+Total time: 17 minutes
+Nodes created: 30
+Nodes visited: 18
+#+END_SRC
+
+
+Imgur post: https://imgur.com/a/4kJMuFG
+
+** Authors
+- https://github.com/sot-andreas
+- https://github.com/icsd18232
